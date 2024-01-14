@@ -1,0 +1,77 @@
+body {
+    background-image: url("./src/MainMenu/RetroGamesBackground.jpg");
+    background-size: cover;
+    color: white;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h2 {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#GameList {
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 20px;
+    width: 60%;
+}
+
+#OnePlayerCategory, #TwoPlayerCategory {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.Category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Category div {
+    width: 100%;
+    margin: 1%;
+}
+
+.CategoryName {
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+#MemoryGame,
+#FlappyBird {
+    width: 45%;
+}
+
+.GameBracket:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px white;
+    filter: brightness(100%)
+}
+
+.GameBracket {
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(50%);
+}
+
+#MemoryGame {
+    background-image: url("./src/MainMenu/MemoryGameIcon.png");
+    background-size: cover;
+}
+
+#FlappyBird {
+    background-image: url("./src/MainMenu/FlappyBirdIcon.png");
+    background-size: cover;
+}
+
+#TicTacToe {
+    background-image: url("./src/MainMenu/TicTacToeIcon.jpg");
+    background-size: cover;
+    width: 92%;
+}
